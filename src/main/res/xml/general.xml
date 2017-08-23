@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="general_base"
+    >
+    <com.Softy.Launcher2.Views.MessagePreference
+        android:key="message" android:title="" />
+    <PreferenceCategory android:title="Main"
+        android:key="general_main"
+        >
+        <SwitchPreference android:title="Google Search Bar" android:summary="Enable or disable the Google bar" android:key="qsb" />
+        <Preference android:title="GO PRO!" android:summary="Permanently disable ads, get early updates, and more!" android:key="go_pro" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Look and feel"
+        >
+        <CheckBoxPreference android:title="Dark theme" android:key="dark_theme" />
+        <CheckBoxPreference android:title="Light theme" android:key="light_theme" />
+        <Preference android:title="Icon Pack" android:key="icon_pack" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Gestures"
+        >
+        <Preference
+            android:title="Swipe up"
+            android:key="swipe_up"
+            android:summary="Action to do on swipe up"
+            />
+        <Preference
+            android:title="Swipe Down"
+            android:key="swipe_down"
+            android:summary="Action to do on swipe down"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Account Settings" android:key="account_settings">
+        <Preference android:title="Change account" android:summary="Change the account on the device" android:key="change"/>
+        <Preference android:title="Manage account" android:summary="Change account settings" android:key="manage" />
+    </PreferenceCategory>
+    <Preference android:title="Account" android:summary="Account" android:key="account" />
+</PreferenceScreen>

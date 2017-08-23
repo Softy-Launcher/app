@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.Softy.Launcher2.Views.MessagePreference
+        android:key="message" android:title="" />
+    <PreferenceCategory android:title="Page indication">
+        <SwitchPreference android:title="Page indicator" android:key="page_indicator" />
+    </PreferenceCategory>
+</PreferenceScreen>

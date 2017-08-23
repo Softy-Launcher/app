@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Settings.Dark" parent="@style/Theme.AppCompat.Light.DarkActionBar"
+        >
+        <!-- Light Red status bar #BE350B -->
+            <!-- Main theme colors -->
+            <!--   your app branding color for the app bar -->
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:color">#FFFFFF</item>
+            <item name="android:colorPrimary">#BE350B</item>
+            <!--   darker variant for the status bar and contextual app bars -->
+            <item name="android:colorPrimaryDark">#BE350B</item>
+            <!--   theme UI controls like checkboxes and text fields -->
+            <item name="android:colorAccent">#ffdf59</item>
+            <item name="android:windowBackground">@color/dark</item>
+    </style>
+    <style name="Settings.Light" parent="@style/Theme.AppCompat.Light.DarkActionBar"
+        >
+        <!-- Light Red status bar -->
+            <item name="android:textColor">#000000</item>
+            <item name="android:color">#000000</item>
+            <!--   your app branding color for the app bar -->
+            <item name="android:colorPrimary">#8cdeca</item>
+            <!--   darker variant for the status bar and contextual app bars -->
+            <item name="android:colorPrimaryDark">#8cdeca</item>
+            <!--   theme UI controls like checkboxes and text fields -->
+            <item name="android:colorAccent">#479a67</item>
+            <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

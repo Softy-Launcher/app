@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.Softy.Launcher2.Views.MessagePreference
+        android:key="message" android:title=""/>
+    <PreferenceCategory android:title="Templates on SD Card" android:key="@string/templates_category" />
+    <PreferenceCategory android:title="Templates from App" android:key="app_templates" />
+</PreferenceScreen>

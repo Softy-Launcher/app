@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#F8F8F7"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="GoodHub"
+        android:textColor="#8cc1a5"
+        android:textSize="24pt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:id="@+id/acct_user"
+            android:gravity="center_horizontal"
+            android:background="@null"
+            android:textColorHint="#8cc1a5"
+            android:textColor="#8cc1a5"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:id="@+id/acct_pass"
+            android:gravity="center_horizontal"
+            android:background="@null"
+            android:textColorHint="#8cc1a5"
+            android:textColor="#8cc1a5"
+            android:imeOptions="actionGo"
+            android:singleLine="true"
+            />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/skip"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:text="Skip"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/sign_up"
+                android:background="#c71585"
+                android:textColor="#FFFFFF"
+                android:text="Sign up"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/sign_in"
+                android:background="#6da79f"
+                android:textColor="#FFFFFF"
+                android:text="Sign in"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

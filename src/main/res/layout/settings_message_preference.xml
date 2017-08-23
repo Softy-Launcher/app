@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Button android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/sprite"
+    android:text="This is a sample message"
+    android:id="@+id/message_button"
+    android:gravity="center"
+    android:textSize="18dp"
+    android:textColor="#FFFFFF"
+    android:textStyle="normal"
+    android:textAllCaps="false"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

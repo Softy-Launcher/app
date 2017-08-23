@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="screen_base"
+    >
+    <com.Softy.Launcher2.Views.MessagePreference
+        android:key="message" android:title="" />
+    <Preference android:title="Home" android:summary="Set the default home screen" android:key="default_launcher" />
+    <Preference android:title="Workspace" android:summary="Workspace settings" android:key="workspace" />
+    <Preference android:title="General" android:summary="General settings" android:key="general" />
+    <SwitchPreference android:title="Dock" android:key="dock" />
+    <Preference android:title="Drawer" android:key="drawer" />
+    <Preference android:title="Templates" android:key="template" />
+    <Preference android:title="Folders" android:key="folders" />
+    <PreferenceCategory android:title="About Softy" android:key="about">
+        <Preference android:title="Version" android:summary="Launcher version" android:key="version"/>
+        <Preference android:title="Backup preferences" android:summary="Creates a local backup of your settings" android:key="backup_settings" />
+        <Preference android:title="Import preferences" android:summary="Imports old preferences" android:key="import_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

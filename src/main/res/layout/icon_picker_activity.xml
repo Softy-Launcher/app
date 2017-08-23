@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Icon Pack Name"
+            android:textColor="#FFFFFF"
+            android:id="@+id/icon_pack_name"
+            android:textSize="18pt"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Icon Pack Package Name"
+            android:textColor="#FFFFFF"
+            android:id="@+id/icon_pack_package"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_pack_icon"
+            android:src="@mipmap/ic_launcher"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff7373"
+        android:textColor="#FFFFFF"
+        android:id="@+id/icon_pack_apply"
+        android:text="Apply icon pack"
+        />
+</LinearLayout>
